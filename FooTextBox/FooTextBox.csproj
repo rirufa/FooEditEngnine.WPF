@@ -1,6 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
+    <PackageId>FooEditEngine.WPF</PackageId>
+    <Version>1.203.13.2</Version>
+    <Authors>FooProject</Authors>
+    <Company>FooProject</Company>
+  </PropertyGroup>
+  
+  <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
