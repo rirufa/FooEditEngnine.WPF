@@ -1094,9 +1094,9 @@ namespace FooEditEngine.WPF
             if(Keyboard.Modifiers == ModifierKeys.None)
             {
                 if (e.Delta > 0)
-                    this._Controller.Scroll(ScrollDirection.Up, SystemParameters.WheelScrollLines, false, false);
+                    this._Controller.ScrollByPixel(ScrollDirection.Up, SystemParameters.WheelScrollLines * this.Render.emSize.Height, false, false);
                 else
-                    this._Controller.Scroll(ScrollDirection.Down, SystemParameters.WheelScrollLines, false, false);
+                    this._Controller.ScrollByPixel(ScrollDirection.Down, SystemParameters.WheelScrollLines * this.Render.emSize.Height, false, false);
             }
             else if (Keyboard.Modifiers == ModifierKeys.Control)
             {
