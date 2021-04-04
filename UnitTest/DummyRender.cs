@@ -43,7 +43,7 @@ namespace UnitTest
 
         public Size emSize
         {
-            get { return new Size(); }
+            get { return new Size(10,10); }
         }
 
         public int TabWidthChar
@@ -147,12 +147,12 @@ namespace UnitTest
     {
         public double Width
         {
-            get { return 0; }
+            get { return 100; }
         }
 
         public double Height
         {
-            get { return 0; }
+            get { return 20; }
         }
 
         public bool Disposed
